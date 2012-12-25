@@ -1,6 +1,8 @@
 source "http://rubygems.org"
 gemspec
 
+gem "mysql2"
+gem "bcrypt-ruby"
 
 # Gems for authenticators
 group :ldap do

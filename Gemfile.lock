@@ -30,6 +30,7 @@ GEM
       bundler
       rake
     arel (3.0.2)
+    bcrypt-ruby (3.0.1)
     builder (3.0.4)
     capybara (1.1.2)
       mime-types (>= 1.16)
@@ -56,6 +57,7 @@ GEM
     listen (0.5.3)
     mime-types (1.19)
     multi_json (1.3.6)
+    mysql2 (0.3.11)
     net-ldap (0.1.1)
     nokogiri (1.5.5)
     r18n-core (1.1.1)
@@ -104,9 +106,11 @@ PLATFORMS
 DEPENDENCIES
   activeresource (>= 2.3.12, < 4.0)
   appraisal (~> 0.4.1)
+  bcrypt-ruby
   capybara (= 1.1.2)
   guard (~> 1.4.0)
   guard-rspec (= 2.0.0)
+  mysql2
   net-ldap (~> 0.1.1)
   nokogiri (~> 1.3)
   rack-test
